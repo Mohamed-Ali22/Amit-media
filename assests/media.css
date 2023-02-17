@@ -1,0 +1,42 @@
+
+/* Medium sceem  */
+@media screen and (min-width:767px) and (max-width:992px){
+    .logo{
+        width:20%;
+    }
+    header .topnav{
+        margin:0;
+    }
+    header .topnav .links{
+        width:80%;
+    }
+    header .topnav .links i{
+        visibility: visible;
+    }
+}
+
+/* small screen  */
+@media screen and (max-width:767px){
+    .topnav i{
+        visibility: visible;
+    }
+        header .topnav .links{
+        visibility: hidden;
+    }
+    header .topnav .links i{
+        visibility: hidden;
+    }
+    .clients_cards {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    }
+    .btn2{
+        margin-bottom: 1rem;
+    }
+    .footer .row ul li {
+    display: inline-block;
+    margin:0 20px;
+    }
+}
